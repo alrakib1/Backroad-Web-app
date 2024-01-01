@@ -138,3 +138,26 @@ export const tours = [
     cost: 1000,
   },
 ];
+
+export const footerLinks = [
+  {
+    id: 1,
+    href: "#home",
+    title: "home",
+  },
+  {
+    id: 2,
+    href: "#about",
+    title: "about",
+  },
+  {
+    id: 3,
+    href: "#services",
+    title: "services",
+  },
+  {
+    id: 4,
+    href: "#featured",
+    title: "featured",
+  },
+];
