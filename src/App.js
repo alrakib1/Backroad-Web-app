@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Tour from "./components/Tour";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,10 +12,8 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Tour/>
-     
-
-     
+      <Tour />
+      <Footer />
     </>
   );
 }
