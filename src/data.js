@@ -1,3 +1,10 @@
+import tour1 from "./images/tour-1.jpeg";
+import tour2 from "./images/tour-2.jpeg";
+import tour3 from "./images/tour-3.jpeg";
+import tour4 from "./images/tour-4.jpeg";
+import tour5 from "./images/tour-5.jpeg";
+import tour6 from "./images/tour-6.jpeg";
+
 export const pageLinks = [
   {
     id: 1,
@@ -63,39 +70,71 @@ export const services = [
   },
 ];
 
-// export const services = [{
-//   image: '',
-//   date: 'December 5th, 2019',
-//   tourInfo: 'Kenya Highlights',
-//   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
-//   country: 'Kenya',
-//   days: '20',
-//   price: '3300',
-// }];
-
-{
-  /* <article className="tour-card">
-<div className="tour-img-container">
-  <img src="./images/tour-4.jpeg" className="tour-img" alt="" />
-  <p className="tour-date">december 5th, 2019</p>
-</div>
-<div className="tour-info">
-  <h4>kenya highlights</h4>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-    vitae tempore voluptatum maxime reprehenderit eum quod
-    exercitationem fugit, qui corporis.
-  </p>
-  <div className="tour-footer">
-    <p>
-      <span>
-        <i className="fas fa-map"></i>
-      </span>{" "}
-      kenya
-    </p>
-    <p>20 days</p>
-    <p>from $3300</p>
-  </div>
-</div>
-</article> */
-}
+export const tours = [
+  {
+    id: 1,
+    image: tour2,
+    date: "December 5th, 2019",
+    tourInfo: "Kenya Highlights",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "Kenya",
+    duration: 20,
+    cost: 3300,
+  },
+  {
+    id: 2,
+    image: tour1,
+    date: "august 26th, 2020",
+    tourInfo: "Tibet Adventure",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "china",
+    duration: 6,
+    cost: 2100,
+  },
+  {
+    id: 3,
+    image: tour4,
+    date: "october 1th, 2020",
+    tourInfo: "best of java",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "indonesia",
+    duration: 11,
+    cost: 1400,
+  },
+  {
+    id: 4,
+    image: tour3,
+    date: "December 5th, 2019",
+    tourInfo: "explore hong kong",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "hong kong",
+    duration: 8,
+    cost: 4000,
+  },
+  {
+    id: 5,
+    image: tour5,
+    date: "December 5th, 2019",
+    tourInfo: "Amazon Highlights",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "Brazil",
+    duration: 20,
+    cost: 3300,
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: "December 5th, 2019",
+    tourInfo: "India Highlights",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "India",
+    duration: 7,
+    cost: 1000,
+  },
+];
