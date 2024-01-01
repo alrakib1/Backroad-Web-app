@@ -1,10 +1,10 @@
 
 
-const Title = ({name,subName}) => {
+const Title = ({title,subTitle}) => {
     return (
         <div className="section-title">
         <h2>
-          {name} <span>{subName}</span>
+          {title} <span>{subTitle}</span>
         </h2>
       </div>
     );

@@ -39,18 +39,42 @@ export const socialLinks = [
   },
 ];
 
+export const services = [
+  {
+    id: 1,
+    icon: "fas fa-wallet fa-fw",
+    service: "Saving Money",
+    description:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, official",
+  },
+  {
+    id: 2,
+    icon: "fas fa-tree fa-fw",
+    service: "endless hiking",
+    description:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, official",
+  },
+  {
+    id: 3,
+    icon: "fas fa-socks fa-fw",
+    service: "amazing comfort",
+    description:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, official",
+  },
+];
 
-export const tourCards = [{
-image: '',
-date: '',
-tourInfo : '',
-description: '',
-flag: '',
-days: '',
-price : '',
-}]
+// export const services = [{
+//   image: '',
+//   date: 'December 5th, 2019',
+//   tourInfo: 'Kenya Highlights',
+//   description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+//   country: 'Kenya',
+//   days: '20',
+//   price: '3300',
+// }];
 
-{/* <article className="tour-card">
+{
+  /* <article className="tour-card">
 <div className="tour-img-container">
   <img src="./images/tour-4.jpeg" className="tour-img" alt="" />
   <p className="tour-date">december 5th, 2019</p>
@@ -73,4 +97,5 @@ price : '',
     <p>from $3300</p>
   </div>
 </div>
-</article> */}
+</article> */
+}
