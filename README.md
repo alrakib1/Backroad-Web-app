@@ -1,3 +1,3 @@
 ## About
 
-It's a simple single page react app
+It's a simple landing page created with create react app
